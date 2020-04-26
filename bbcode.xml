@@ -3,6 +3,7 @@
     <import>
         <bbcode name="lang">
             <classname>wcf\system\bbcode\LanguageBBCode</classname>
+            <isBlockElement>1</isBlockElement>
             <attributes>
                 <attribute name="0">
                     <required>1</required>
