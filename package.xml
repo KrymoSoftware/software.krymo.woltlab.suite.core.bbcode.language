@@ -5,8 +5,8 @@
         <packagename language="de"><![CDATA[BBCode: Sprache]]></packagename>
         <packagedescription><![CDATA[This package provides a language BBCode for the WoltLab Suite™ Core.]]></packagedescription>
         <packagedescription language="de"><![CDATA[Dieses Paket stellt einen Sprach-BBCode für den WoltLab Suite™ Core zur Verfügung.]]></packagedescription>
-        <version>1.0.0</version>
-        <date>2020-03-12</date>
+        <version>1.0.1</version>
+        <date>2020-04-26</date>
         <packageurl><![CDATA[https://krymo.software]]></packageurl>
     </packageinformation>
 
@@ -24,6 +24,11 @@
     </excludedpackages>
 
     <instructions type="install">
+        <instruction type="file"/>
+        <instruction type="bbcode"/>
+    </instructions>
+
+    <instructions type="update" fromversion="1.0.0">
         <instruction type="file"/>
         <instruction type="bbcode"/>
     </instructions>
