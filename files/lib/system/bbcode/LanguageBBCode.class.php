@@ -1,7 +1,6 @@
 <?php
 namespace wcf\system\bbcode;
 
-use wcf\system\exception\SystemException;
 use wcf\system\language\LanguageFactory;
 use wcf\system\WCF;
 
@@ -14,10 +13,8 @@ use wcf\system\WCF;
  * @package     WoltLabSuite\Core\System\Bbcode
  */
 class LanguageBBCode extends AbstractBBCode {
-
     /**
      * @inheritDoc
-     * @throws SystemException
      */
     public function getParsedTag(array $openingTag, $content, array $closingTag, BBCodeParser $parser) {
         $languageCode = !empty($openingTag['attributes'][0]) ? $openingTag['attributes'][0] : 0;
