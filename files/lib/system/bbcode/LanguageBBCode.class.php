@@ -13,7 +13,7 @@ use wcf\system\WCF;
  * @license     Krymo Software - Free Products License <https://krymo.software/license-terms/#free-products>
  * @package     WoltLabSuite\Core\System\Bbcode
  */
-class LanguageBBCode extends AbstractBBCode
+final class LanguageBBCode extends AbstractBBCode
 {
     /**
      * @inheritDoc
