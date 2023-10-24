@@ -18,7 +18,7 @@ final class LanguageBBCode extends AbstractBBCode
     /**
      * @inheritDoc
      */
-    public function getParsedTag(array $openingTag, $content, array $closingTag, BBCodeParser $parser)
+    public function getParsedTag(array $openingTag, $content, array $closingTag, BBCodeParser $parser): string
     {
         $languageCode = !empty($openingTag['attributes'][0]) ? $openingTag['attributes'][0] : 0;
 
