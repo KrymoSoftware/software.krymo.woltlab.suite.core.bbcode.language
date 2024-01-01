@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package name="software.krymo.woltlab.suite.core.bbcode.language" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/6.0/package.xsd">
+<package name="software.krymo.woltlab.suite.core.bbcode.language" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/package.xsd">
 	<packageinformation>
 		<packagename><![CDATA[BBCode: Language]]></packagename>
 		<packagename language="de"><![CDATA[BBCode: Sprache]]></packagename>
 		<packagedescription><![CDATA[This package provides a language BBCode for the WoltLab Suite™ Core.]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Dieses Paket stellt einen Sprach-BBCode für den WoltLab Suite™ Core zur Verfügung.]]></packagedescription>
 		<version>1.1.0</version>
-		<date>2023-10-24</date>
+		<date>2024-01-01</date>
 		<packageurl><![CDATA[https://krymo.software]]></packageurl>
 	</packageinformation>
 
@@ -16,11 +16,11 @@
 	</authorinformation>
 
 	<requiredpackages>
-		<requiredpackage minversion="5.5.18">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="5.4.32">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
 
 	<excludedpackages>
-		<excludedpackage version="7.0.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+		<excludedpackage version="6.1.0 Alpha 1">com.woltlab.wcf</excludedpackage>
 	</excludedpackages>
 
 	<instructions type="install">
