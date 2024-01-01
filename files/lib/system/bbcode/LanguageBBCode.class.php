@@ -9,7 +9,7 @@ use wcf\system\WCF;
  * Parses the [lang] bbcode tag.
  *
  * @author      Niklas Friedrich Gerstner
- * @copyright   2020 Krymo Software
+ * @copyright   2024 Krymo Software
  * @license     Krymo Software - Free Products License <https://krymo.software/license-terms/#free-products>
  * @package     WoltLabSuite\Core\System\Bbcode
  */
