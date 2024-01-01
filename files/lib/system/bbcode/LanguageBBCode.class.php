@@ -28,7 +28,7 @@ final class LanguageBBCode extends AbstractBBCode
 
         $language = LanguageFactory::getInstance()->getLanguageByCode($languageCode);
 
-        if (!$language || WCF::getLanguage()->languageID != $language->languageID) {
+        if (!$language || WCF::getLanguage()->languageID !== $language->languageID) {
             return '';
         }
 
